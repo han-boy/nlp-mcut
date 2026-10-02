@@ -1,0 +1,22 @@
+{
+    "Phase_1_Mechanical_Sanity": {
+        "Morphology_Median_Length": {
+            "Cleaned": 17061.0,
+            "Raw": 171.0
+        },
+        "Topology_TAR_Score": {
+            "Cleaned": 1.0,
+            "Raw": 1.0
+        },
+        "Depth_Variance_SDV": {
+            "Cleaned": 0.0,
+            "Raw": 0.0
+        }
+    },
+    "Phase_2_Semantic_Quality": {
+        "Information_Median_Entropy": {
+            "Cleaned": 5.641425238775768,
+            "Raw": 4.563882442755132
+        }
+    }
+}
