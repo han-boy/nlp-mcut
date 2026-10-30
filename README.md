@@ -23,7 +23,7 @@
 - [x] 更新本 README 文件，填寫學號、姓名與 PyTorch 環境狀態。
 - [x] 成功使用 Git 完成 `commit` 並 `push` 同步至 GitHub 雲端。
 
-### Week 4: Data Ingestion & Topology-Aware Chunking
+### Week 04 / 08: Data Ingestion & Topology-Aware Chunking
 - [x] **環境建置與套件**：更新 `.gitignore` 忽略原始 PDF 與批次 JSON，並保留 `.keep` 目錄結構。
 - [x] **斷言與修復**：撰寫 Regex，將斷裂雙語標題與對照條文無縫重組。
 - [x] **機械健全度 (Mechanical Sanity)**：

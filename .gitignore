@@ -33,6 +33,9 @@ Thumbs.db
 data/raw/**/*.pdf
 data/interim/**/*.md
 data/processed/**/*.json
+raw_data/
+notebooks/metrics.json
+URL.txt
 
 # Always track .keep files to preserve directory structures
 !data/raw/**/.keep
