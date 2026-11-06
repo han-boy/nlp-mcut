@@ -36,6 +36,7 @@ data/processed/**/*.json
 raw_data/
 notebooks/metrics.json
 URL.txt
+week09_midterm.md
 
 # Always track .keep files to preserve directory structures
 !data/raw/**/.keep
