@@ -35,3 +35,16 @@
   - [x] 繪製 4 格儀表板 (4-Panel Dashboard)。
   - [x] 將核心數據匯出至根目錄下的 `metrics.json`。
 
+### Week 09：期中資料評估與報告
+- [x] 完成期中 Chunks 評估與文字清洗指標分析。
+- [x] 繪製長度分佈、字元差異、熵值比較圖表與總結儀表板。
+- [x] 完成 `DATA_REPORT.md` 期中資料報告與 `AI_USAGE.md` 紀錄。
+
+### Week 10：從計數到向量（關鍵字檢索 vs 語意檢索）
+- [x] **環境與模型設定**：完成 `notebooks/10_setup.ipynb`，載入 `bge-small-zh-v1.5` 模型並產生 384 個 chunks 之稠密向量嵌入 (`data/embeddings/week10_chunk_emb.npy`)。
+- [x] **套件與版本控管**：自動更新 `requirements.txt`（新增 jieba、rank_bm25、scikit-learn、sentence-transformers）與 `.gitignore`（忽略 `models/` 與 `data/embeddings/`）。
+- [x] **關鍵字檢索實作**：使用 jieba 斷詞，完成 TF-IDF 檢索與 BM25 檢索實作 (`search_tfidf`, `search_bm25`)。
+- [x] **語意檢索實作**：手刻餘弦相似度函式 (`cosine`)，並以預訓練句向量模型完成語意檢索 (`search_dense`)。
+- [x] **檢索評估與人工判讀**：測試 10 組校規問答（包含專有名詞與口語換句話說），完成三種檢索方法之前三名命中判斷 (`hit@3`)。
+- [x] **自訂測試題目與反思**：設計關鍵字與語意檢索專屬問題，分析比較兩種檢索架構之優缺點與混合檢索 (Hybrid Search) 的必要性。
+- [x] **成果匯出**：產生檢索比較報表 `week10_retrieval_comparison.json` 並完整保留 notebook 執行結果。
